@@ -1,0 +1,35 @@
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
+
+.text-field {
+    -fx-font-size: 16px;
+    -fx-pref-width: 150px;
+}
+
+.combo-box {
+    -fx-font-size: 16px;
+    -fx-pref-width: 200px;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #007bff;
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.result-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #007bff;
+}
+
+/* Compatibility for font-size property */
+.root {
+    -fxFontSize: 16px;
+}
